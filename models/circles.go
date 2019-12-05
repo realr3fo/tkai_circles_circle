@@ -4,7 +4,7 @@ import (
 	"errors"
 	"github.com/jinzhu/gorm"
 	"math"
-	u "tkai_circles_circle/utils"
+	u "github.com/realr3fo/tkai_circles_circle/utils"
 )
 
 type Circle struct {

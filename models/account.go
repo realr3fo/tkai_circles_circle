@@ -4,7 +4,7 @@ import (
 	"errors"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/jinzhu/gorm"
-	u "tkai_circles_circle/utils"
+	u "github.com/realr3fo/tkai_circles_circle/utils"
 	"golang.org/x/crypto/bcrypt"
 	"os"
 )

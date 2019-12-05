@@ -6,8 +6,8 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"net/http"
 	"os"
-	"tkai_circles_circle/models"
-	u "tkai_circles_circle/utils"
+	"github.com/realr3fo/tkai_circles_circle/models"
+	u "github.com/realr3fo/tkai_circles_circle/utils"
 )
 
 var JwtAuthentication = func(next http.Handler) http.Handler {
